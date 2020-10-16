@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "org.middleware.pigeon.model";
+
+option java_outer_classname = "MessageProto";
+
+message Message {
+  int32 messageId = 1;
+  string messageBody = 2;
+  int32 messageType = 3;
+}
