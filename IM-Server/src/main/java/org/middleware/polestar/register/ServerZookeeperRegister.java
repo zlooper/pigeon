@@ -1,4 +1,4 @@
-package org.middleware.pigeon.register;
+package org.middleware.polestar.register;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -10,8 +10,8 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.data.ACL;
-import org.middleware.pigeon.model.ServerInstanceMetaData;
-import org.middleware.pigeon.config.ZookeeperConfig;
+import org.middleware.polestar.model.ServerInstanceMetaData;
+import org.middleware.polestar.config.ZookeeperConfig;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.Charset;

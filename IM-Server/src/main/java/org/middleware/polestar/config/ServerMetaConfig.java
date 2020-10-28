@@ -1,8 +1,8 @@
-package org.middleware.pigeon.config;
+package org.middleware.polestar.config;
 
 import org.apache.commons.lang3.StringUtils;
-import org.middleware.pigeon.common.NetworkUtil;
-import org.middleware.pigeon.model.ServerInstanceMetaData;
+import org.middleware.polestar.common.NetworkUtil;
+import org.middleware.polestar.model.ServerInstanceMetaData;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,16 +10,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ServerMetaConfig {
 
-    @Value("#{systemEnvironment['PIGEON.SERVER.EXPOSE.PORT'] ?: '10011'}")
+    @Value("#{systemEnvironment['POLESTAR.SERVER.EXPOSE.PORT'] ?: '10011'}")
     private String serverExposePort;
 
-    @Value("#{systemEnvironment['PIGEON.SERVER.BRIDGE.PORT'] ?: '10012'}")
+    @Value("#{systemEnvironment['POLESTAR.SERVER.BRIDGE.PORT'] ?: '10012'}")
     private String serverBridgePort;
 
-    @Value("#{systemEnvironment['PIGEON.SERVER.EXPOSE.IP'] ?: ''}")
+    @Value("#{systemEnvironment['POLESTAR.SERVER.EXPOSE.IP'] ?: ''}")
     private String serverIP;
 
-    @Value("#{systemEnvironment['PIGEON.SERVER.EXPOSE.PID'] ?: ''}")
+    @Value("#{systemEnvironment['POLESTAR.SERVER.EXPOSE.PID'] ?: ''}")
     private String ServerPID;
 
     @Bean

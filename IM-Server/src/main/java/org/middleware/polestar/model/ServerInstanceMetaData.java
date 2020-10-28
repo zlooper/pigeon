@@ -1,4 +1,4 @@
-package org.middleware.pigeon.model;
+package org.middleware.polestar.model;
 
 import cn.hutool.json.JSONUtil;
 import lombok.Data;

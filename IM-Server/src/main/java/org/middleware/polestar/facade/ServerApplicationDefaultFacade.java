@@ -1,8 +1,8 @@
-package org.middleware.pigeon.facade;
+package org.middleware.polestar.facade;
 
 import lombok.extern.slf4j.Slf4j;
-import org.middleware.pigeon.register.ServerRegister;
-import org.middleware.pigeon.server.IMServer;
+import org.middleware.polestar.register.ServerRegister;
+import org.middleware.polestar.server.IMServer;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;

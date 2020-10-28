@@ -1,4 +1,4 @@
-package org.middleware.pigeon.register;
+package org.middleware.polestar.register;
 
 
 public interface ServerRegister {

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "org.middleware.pigeon.model";
+option java_package = "org.middleware.polestar.model";
 
 option java_outer_classname = "MessageProto";
 

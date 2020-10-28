@@ -1,2 +1,2 @@
-# pigeon
+# polestar
 IM System by Java

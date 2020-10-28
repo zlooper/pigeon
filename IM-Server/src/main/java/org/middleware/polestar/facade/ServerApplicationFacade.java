@@ -1,4 +1,4 @@
-package org.middleware.pigeon.facade;
+package org.middleware.polestar.facade;
 
 public interface ServerApplicationFacade {
 

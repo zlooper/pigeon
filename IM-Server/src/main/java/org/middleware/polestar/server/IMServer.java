@@ -1,4 +1,4 @@
-package org.middleware.pigeon.server;
+package org.middleware.polestar.server;
 
 public interface IMServer {
 

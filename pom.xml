@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.middleware.pigeon</groupId>
-    <artifactId>pigeon</artifactId>
+    <groupId>org.middleware</groupId>
+    <artifactId>polestar</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>IM-Server</module>
@@ -11,7 +11,7 @@
     </modules>
     <packaging>pom</packaging>
 
-    <name>pigeon</name>
+    <name>polestar</name>
     <description>Spring Boot</description>
 
 
